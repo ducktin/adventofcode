@@ -3,7 +3,7 @@ history = {0}
 freq = 0
 b = False
 while True:
-    input_file = open(r'01\input', 'r')
+    input_file = open(r'input', 'r')
     for line in input_file:
         #print(freq)
         freq = freq+int(line)

@@ -6,9 +6,9 @@ def nearlyequal(str1, str2):
             count_diffs += 1
     return True
 
-with open(r'02\input', 'r') as f:
+with open(r'input', 'r') as f:
     inputlist = f.read().splitlines()
-input_file = open(r'02\input', 'r')
+input_file = open(r'input', 'r')
 input_list = []
 for line in input_file:
     input_list.append(line.strip())
