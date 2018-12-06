@@ -32,7 +32,7 @@ def test_img():
     img = Image.fromarray( mat , 'L')
     img.show()
 
-with open('D:/projektek/adventofcode/2018/03/input', 'r') as f:
+with open(r'03\input', 'r') as f:
     inputlist = f.read().splitlines()
 fabric = [['0' for i in range(1000)] for i in range(1000)]
 #print(fabric)

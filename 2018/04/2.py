@@ -15,7 +15,7 @@ def dict_max_item(dictionary):
 def minutes_slept_through(fell, wake):
     return list(range(int(fell), int(wake)))
 
-with open('D:/projektek/adventofcode/2018/04/input', 'r') as f:
+with open(r'04\input', 'r') as f:
     inputlist = f.read().splitlines()
 
 time_pattern = re.compile(r'^\[1518-(?P<month>\d+)-(?P<day>\d+) (?P<hour>\d+):(?P<minute>\d+)\]')

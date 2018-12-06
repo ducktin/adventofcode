@@ -1,4 +1,4 @@
-input_file = open('D:/projektek/adventofcode/2018/02/input', 'r')
+input_file = open(r'02\input', 'r')
 contains_2 = contains_3 = 0
 for line in input_file:
     # dict with all letters and their count

@@ -19,7 +19,7 @@ def generate_react_list():
     return r
 
 react_list = generate_react_list()
-with open(r'2018\05\input') as f:
+with open(r'05\input') as f:
     input = f.read()
 for c in string.ascii_lowercase:
     polymer = input
