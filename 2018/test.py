@@ -34,3 +34,9 @@ list = [i%10 for i in range(50)]
 plt.plot(list)
 plt.axis('tight')
 plt.show()
+
+
+d = {'A': [1,2,3]}
+while len(d.keys()) > 0:
+    del d['A']
+print(d)
