@@ -40,3 +40,13 @@ d = {'A': [1,2,3]}
 while len(d.keys()) > 0:
     del d['A']
 print(d)
+
+l = [0, 1, 2 ,3, 4, 5, 6, 7, 8]
+print(l[-6])
+
+l = [0]
+l.insert(0,1)
+print(l)
+
+l = [1,2,3]
+print(max(l))
