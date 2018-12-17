@@ -50,3 +50,11 @@ print(l)
 
 l = [1,2,3]
 print(max(l))
+
+print(int(' 2'))
+
+print('initial state: #..#.#..##......###...###'.replace('initial state: ', ''))
+
+# s = 'abcdef'
+# s[2] = 'A'
+# print(s)
