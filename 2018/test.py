@@ -58,3 +58,7 @@ print('initial state: #..#.#..##......###...###'.replace('initial state: ', ''))
 # s = 'abcdef'
 # s[2] = 'A'
 # print(s)
+
+# tuple as dict key
+d = {(1,2): 'a', (2,2): 'b'}
+print(d[(2,2)])
